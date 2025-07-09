@@ -68,6 +68,16 @@ This lab will eventually serve as an AI-hosted meeting space to simulate IAM coo
 
 ---
 
+### 🔐 Identity & Vulnerability Management Modules
+
+- **IAM Experience:** Okta administration, user provisioning, MFA troubleshooting, and access lifecycle management
+- **Vulnerability Scanning:** Installed and configured **Tenable Nessus Essentials** for network scans and CVE analysis
+- **Cloud Security:** Simulated cloud vulnerability scanning and IAM misconfig detection using tools equivalent to **WIZ**, such as [ScoutSuite/Prowler]
+- **EDR Concepts:** Researched and documented alert response workflows modeled after **Crowdstrike**, **Defender for Endpoint**, and **Cortex XDR**
+- **Apple Device Management:** Familiar with **JAMF**, **Intune**, and general MDM principles through macOS support at scale
+
+---
+
 ## ⚔️ The Mission
 
 This repo is part of a larger journey to earn:
