@@ -8,7 +8,7 @@ This document outlines the hardware configuration of the Forge Server—built to
 
 - **CPU**: Intel Core i5 (4th Generation)
 - **GPU**: NVIDIA GeForce RTX 2060 (12GB VRAM)
-- **RAM**: 32GB DDR3 (maximum supported for motherboard)
+- **RAM**: 16GB DDR3 (maximum supported for motherboard)
 - **Storage**: 500GB SSD (primary and only drive connected)
 - **Motherboard**: [Insert motherboard model if known]
 - **Power Supply**: [Optional: Insert if known]
