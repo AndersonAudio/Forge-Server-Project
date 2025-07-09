@@ -22,7 +22,7 @@ This project documents the full lifecycle of building a private cybersecurity an
 
 - Intel Core i5 (4th Gen)
 - NVIDIA RTX 2060 (12GB VRAM)
-- 32GB DDR3 RAM (maximum supported)
+- 16GB DDR3 RAM (maximum supported)
 - 500GB SSD (primary and only connected drive)
 
 ---
