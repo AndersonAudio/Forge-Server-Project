@@ -1,99 +1,169 @@
-# Forge Server Project 🔧🔥
 
-Welcome to the Forge—where iron meets insight.
+The Forge Server Project 🔧🔥
 
-This project documents the full lifecycle of building a private cybersecurity and AI lab using my personal workstation. The Forge Server is designed to power my CompTIA Security+ studies, IAM practice (Okta, SailPoint, AD), and hands-on learning with AI tools like Ollama and Meetily.
-
----
-
-## 🛠️ Objectives
-
-- Reinforce Security+ concepts through real-world builds
-- Practice IAM principles in a safe, controlled environment
-- Integrate local AI models to support cybersecurity workflows
-- Secure the lab using VPN, firewalls, and access controls
-- Document every technical detail for portfolio and hiring visibility
+Where iron meets innovation. Built to create, defend, and dominate.
 
 ---
 
-## 💻 Hardware Specs
+💡 Project Vision
 
-> See [`hardware-specs.md`](hardware-specs.md)
+The Forge began as a private cybersecurity and IAM lab. It has evolved into a self-hosted AI innovation hub designed to:
 
-- Intel Core i5 (4th Gen)
-- NVIDIA RTX 2060 (12GB VRAM)
-- 16GB DDR3 RAM (maximum supported)
-- 500GB SSD (primary and only connected drive)
+* Reinforce CompTIA Security+ knowledge through real builds
 
----
+* Practice IAM workflows (Okta, AD, SailPoint)
 
-## 🧠 Tools & Platforms
+* Integrate local AI models for automation, defense, and translation
 
-> See [`software-tools.md`](software-tools.md)
+* Launch real monetizable AI tools (Om-Call Translator)
 
-- **Ollama** – Local AI model runner
-- **Meetily** – Meeting transcription and AI assistant
-- **Active Directory** – Simulated IAM provisioning
-- **Okta / SailPoint** – Documentation and IAM concept modeling
-- **OpenVPN / WireGuard** – VPN access for secure remote entry and IAM simulation
+This is no longer just a study box. It's the blueprint for building technology-powered freedom.
 
 ---
 
-## 🧙‍♂️ AI Integration Plan
 
-> See [`local-AI-plan.md`](local-AI-plan.md)
+🚀 Current Flagship Projects
 
-This lab will eventually serve as an AI-hosted meeting space to simulate IAM coordination between systems, using prompts, automation tools, and transcription services.
+🎩 Professor Robin
 
----
+A local LLM-powered assistant with:
 
-## 🛡️ Security Infrastructure
+Persistent short- and long-term memory (JSON + Gzip)
 
-> See [`vpn-setup.md`](vpn-setup.md)
+Persona customization
 
-- VPN gateway for remote and secured access
-- Planned: local firewall rules and event logging
-- Optional: integrate VPN logs into SIEM for monitoring practice
+GUI interface with Tailwind, animations, and expandability
 
----
+Role: Personal AI mentor, research assistant, and productivity booster
 
-## 🗂️ Project Files
+🧰 NEX (The Architect)
 
-- `hardware-specs.md` – Full hardware breakdown
-- `software-tools.md` – Apps and services installed/configured
-- `local-AI-plan.md` – How AI will support this server
-- `meetily-notes.md` – Setup logs and use case notes
-- `forge-journal.md` – Daily log of what was built, learned, tested
-- `vpn-setup.md` – Config guide for local VPN access and security roleplay
+Precision-focused AI tool for programming, feature design, and document analysis
 
----
+File memory and document review features enabled
 
-### 🔐 Identity & Vulnerability Management Modules
+Role: Build assistant for Omnys, Forge tools, and future expansions
 
-- **IAM Experience:** Okta administration, user provisioning, MFA troubleshooting, and access lifecycle management
-- **Vulnerability Scanning:** Installed and configured **Tenable Nessus Essentials** for network scans and CVE analysis
-- **Cloud Security:** Simulated cloud vulnerability scanning and IAM misconfig detection using tools equivalent to **WIZ**, such as [ScoutSuite/Prowler]
-- **EDR Concepts:** Researched and documented alert response workflows modeled after **Crowdstrike**, **Defender for Endpoint**, and **Cortex XDR**
-- **Apple Device Management:** Familiar with **JAMF**, **Intune**, and general MDM principles through macOS support at scale
+🪖 Omnys
 
----
+A cybersecurity-focused local AI engine
 
-## ⚔️ The Mission
+Role: Monitor logs, interpret alerts, and integrate with Nessus, VPN, and potential SIEM modules
 
-This repo is part of a larger journey to earn:
-- ✅ CompTIA A+
-- 🔄 CompTIA Security+ (in progress)
-- 📜 Okta & SailPoint Admin Certifications (in progress)
-- 💡 Career shift into IAM, Cybersecurity, or SOC Analyst role
+Planned: Real-time feedback on Forge Server activity
 
----
+📞 Om-Call Translator (Monetization Project)
 
-## 📫 Connect with Me
+Real-time AI-powered voice translation platform
 
+Frontend: Web GUI with speech-to-text, translation, and text-to-speech
+
+Backend: LibreTranslate API + Local TTS engine
+
+Modes: Translate-only | Call-line simulator | Admin view (planned)
+
+Voice repeat feature and call introduction script in design
+
+🚪 Hardware Specs
+
+Forge Server
+
+Intel Core i5 (4th Gen)
+
+NVIDIA RTX 2060 12GB (CUDA Enabled)
+
+16GB DDR3 RAM
+
+500GB SSD (100% LVM extended)
+
+DeathMachine (Development Station)
+
+Intel i9 13th Gen
+
+NVIDIA 4060 Ti 16GB
+
+32GB RAM
+
+2TB NVMe SSD
+
+📊 Tools & Stack
+
+Python 3.10+
+
+Docker (LibreTranslate deployment)
+
+Flask (TTS server)
+
+Tailwind CSS (Custom GUI styling)
+
+WireGuard VPN
+
+Ollama (LLM hosting)
+
+Torch + GPU acceleration (local TTS)
+
+Tenable Nessus Essentials (Vulnerability scanning)
+
+SpeechSynthesis / Web Speech API (Frontend voice features)
+
+🏡 Modules & Goals
+
+🔒 Identity & Access Management
+
+Okta System Admin (real-world experience)
+
+Simulated user provisioning, deprovisioning, MFA & SSO
+
+Long-term: SailPoint simulation and AD integrations
+
+🔎 Cybersecurity Tooling
+
+Nessus Essentials for vulnerability detection
+
+Simulated alerts and response workflows
+
+EDR documentation modeled on Defender, Crowdstrike, Cortex XDR
+
+🌐 Monetization Engine
+
+Om-Call Translator will serve as the first public-facing product
+
+AI translator line with voice replay, phone intro scripts, and admin view
+
+Future plans to offer AI security agents or developer-focused LLMs
+
+📊 Project Documentation
+
+hardware-specs.md — Specs of all systems in the Forge ecosystem
+
+software-tools.md — Key apps and services
+
+local-AI-plan.md — Deployment strategy for AI personas
+
+forge-journal.md — Log of key events, builds, wins
+
+vpn-setup.md — Secure access configuration
+
+meetily-notes.md — Early experiment logs
+
+🖖 Career Goals Powered by the Forge
+
+✅ CompTIA A+ Certified
+
+⏳ CompTIA Security+ (in progress)
+
+⚖️ Okta Admin (real-world use) + SailPoint (planned)
+
+🧰 Shift into IAM or SOC Analyst role with portfolio to back it
+
+🔍 Connect & Contribute
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/iammichaelanderson/)
+If you're building something legendary and want to collaborate, forge ahead and reach out.
 
 ---
 
-## 🏁 Status
+🔋 Status
 
-The Forge is active. Documentation in progress. More updates coming soon.
+The Forge is fully powered. Projects in active development. Monetization phase initiated. Next stop: domination.
+
+"This isn't a lab anymore. It's the birthplace of future companies."
