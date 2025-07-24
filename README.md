@@ -1,136 +1,102 @@
-# The Forge Server Project 🔧🔥
-
-Where iron meets innovation. Built to create, defend, and dominate.
-
----
-
-## 💡 Project Vision
-
-The Forge began as a private cybersecurity and IAM lab. It has evolved into a self-hosted AI innovation hub designed to:
-
-- Reinforce CompTIA Security+ knowledge through real builds
-- Practice IAM workflows (Okta, AD, SailPoint)
-- Integrate local AI models for automation, defense, and translation
-- Launch real monetizable AI tools (Om-Call Translator)
-
-This is no longer just a study box. It's the blueprint for building technology-powered freedom.
+# 🔧🔥 The Forge Server Project  
+**Where iron meets innovation. Built to create, defend, and dominate.**
 
 ---
 
-## 🚀 Current Flagship Projects
+## 💡 Project Vision  
+Originally launched as a private cybersecurity and IAM lab, the Forge has evolved into a self-hosted innovation hub supporting:
 
-### 🎩 Professor Robin
+- Real-world reinforcement of **CompTIA Security+** concepts  
+- Simulation of **IAM workflows** (Okta, SailPoint, AD, MFA, SSO)  
+- Deployment of local **AI agents** for automation, monitoring, and language translation  
+- Creation of **monetizable AI tools** like *Om-Call Translator*
 
-- Local LLM-powered assistant with:
-  - Persistent short- and long-term memory (JSON + Gzip)
-  - Persona customization
-  - GUI interface with Tailwind, animations, and expandability
-- **Role:** Personal AI mentor, research assistant, and productivity booster
-
-### 🧰 NEX (The Architect)
-
-- Precision-focused AI tool for programming, feature design, and document analysis
-- File memory and document review features enabled
-- **Role:** Build assistant for Omnys, Forge tools, and future expansions
-
-### 🪖 Omnys
-
-- Cybersecurity-focused local AI engine
-- **Role:** Monitor logs, interpret alerts, and integrate with Nessus, VPN, and potential SIEM modules
-- **Planned:** Real-time feedback on Forge Server activity
-
-### 📞 Om-Call Translator (Monetization Project)
-
-- Real-time AI-powered voice translation platform
-- Frontend: Web GUI with speech-to-text, translation, and text-to-speech
-- Backend: LibreTranslate API + Local TTS engine
-- Modes: Translate-only | Call-line simulator | Admin view (planned)
-- Voice repeat feature and call introduction script in design
+> This isn’t just a study box—it’s a blueprint for building **technology-powered independence.**
 
 ---
 
-## 🚪 Hardware Specs
+## 🚀 Flagship Projects
 
-**Forge Server**
-- Intel Core i5 (4th Gen)
-- NVIDIA RTX 2060 12GB (CUDA Enabled)
-- 16GB DDR3 RAM
-- 500GB SSD (100% LVM extended)
+### 🎩 Professor Robin  
+Local LLM-powered assistant with:
+- Persistent short- and long-term memory (JSON + Gzip)  
+- Modular persona customization  
+- Custom GUI with Tailwind and animations  
+- **Role:** Research assistant, mentor, productivity booster
 
-**DeathMachine (Development Station)**
-- Intel i9 13th Gen
-- NVIDIA 4060 Ti 16GB
-- 32GB RAM
+### 🧰 NEX – The Architect  
+Technical AI for build planning and file intelligence
+- Precision-focused persona for dev workflows  
+- File memory, code comprehension  
+- **Role:** Engineer’s right hand for Omnys and beyond
+
+### 🪖 Omnys  
+Cybersecurity-focused AI for local monitoring
+- Future integration with Nessus, VPN logs, alert interpretation  
+- **Role:** Cyber defense agent for the Forge
+
+### 📞 Om-Call Translator (Monetization Project)  
+Voice translation AI with real-time interface
+- Speech-to-text, multilingual translation, text-to-speech  
+- Modes: Translate-only, Call Simulator, Admin View  
+- **Role:** First public-facing product in the Forge arsenal
+
+---
+
+## 🖥️ Hardware
+
+**Forge Server**  
+- i5 (4th Gen), RTX 2060 (12GB), 16GB DDR3 RAM  
+- 500GB SSD (LVM)
+
+**DeathMachine (Dev Station)**  
+- i9 13th Gen, RTX 4060 Ti (16GB), 32GB RAM  
 - 2TB NVMe SSD
 
 ---
 
-## 📊 Tools & Stack
-
-- Python 3.10+
-- Docker (LibreTranslate deployment)
-- Flask (TTS server)
-- Tailwind CSS (Custom GUI styling)
-- WireGuard VPN
-- Ollama (LLM hosting)
-- Torch + GPU acceleration (local TTS)
-- Tenable Nessus Essentials (Vulnerability scanning)
-- SpeechSynthesis / Web Speech API (Frontend voice features)
+## 🧰 Stack & Tools  
+Python 3.10+ • Docker • Flask • Tailwind CSS • Ollama • Torch  
+WireGuard VPN • Nessus Essentials • LibreTranslate • Web Speech API
 
 ---
 
-## 🏡 Modules & Goals
-
-### 🔒 Identity & Access Management
-
-- Okta System Admin (real-world experience)
-- Simulated user provisioning, deprovisioning, MFA & SSO
-- Long-term: SailPoint simulation and AD integrations
-
-### 🔎 Cybersecurity Tooling
-
-- Nessus Essentials for vulnerability detection
-- Simulated alerts and response workflows
-- EDR documentation modeled on Defender, Crowdstrike, Cortex XDR
-
-### 🌐 Monetization Engine
-
-- Om-Call Translator will serve as the first public-facing product
-- AI translator line with voice replay, phone intro scripts, and admin view
-- Future plans to offer AI security agents or developer-focused LLMs
+## 🛡️ IAM & Security Modules  
+- **IAM:** Okta real-world use, SailPoint simulations, AD mapping  
+- **Cybersecurity:** Nessus scanning, EDR modeling, alert simulation  
+- **AI Security Agents (planned)** for proactive defense and real-time monitoring
 
 ---
 
-## 📊 Project Documentation
-
-- `hardware-specs.md` — Specs of all systems in the Forge ecosystem
-- `software-tools.md` — Key apps and services
-- `local-AI-plan.md` — Deployment strategy for AI personas
-- `forge-journal.md` — Log of key events, builds, wins
-- `vpn-setup.md` — Secure access configuration
-- `meetily-notes.md` — Early experiment logs
+## 💸 Monetization Roadmap  
+- Om-Call Translator: MVP in development  
+- Future vision includes AI-driven **developer tools**, **security agents**, and **paid translation services**
 
 ---
 
-## 🖖 Career Goals Powered by the Forge
-
-- ✅ CompTIA A+ Certified
-- ⏳ CompTIA Security+ (in progress)
-- ⚖️ Okta Admin (real-world use) + SailPoint (planned)
-- 🧰 Shift into IAM or SOC Analyst role with portfolio to back it
-
----
-
-## 🔍 Connect & Contribute
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/iammichaelanderson/)
-
-If you're building something legendary and want to collaborate, forge ahead and reach out.
+## 📚 Project Docs  
+- `hardware-specs.md`  
+- `software-tools.md`  
+- `local-AI-plan.md`  
+- `vpn-setup.md`  
+- `forge-journal.md`  
+- `meetily-notes.md`
 
 ---
 
-## 🔋 Status
+## 🧭 Career Integration  
+- ✅ CompTIA A+  
+- ⏳ Security+ (in progress)  
+- 🧠 Okta Admin (in use)  
+- 🛠️ IAM/SOC transition goal with project-backed credibility
 
-The Forge is fully powered. Projects in active development. Monetization phase initiated. Next stop: domination.
+---
 
-> "This isn't a lab anymore. It's the birthplace of future companies."
+> 🖖 If you’re building something legendary, let’s connect.
+
+---
+
+## 🔋 Status: Active  
+The Forge is live. Innovation is flowing. Monetization phase has begun.  
+**Next stop: domination.**
+
